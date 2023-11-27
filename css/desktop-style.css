@@ -12,6 +12,10 @@
         line-height: 9vw;
     }
 
+    .logo {
+        width: 200px;
+    }
+
     h3 {
         font-size: 3.5vw;
     }
