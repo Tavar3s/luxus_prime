@@ -56,27 +56,30 @@
 
 @media screen and (max-width:700px) {
     header {
-        background-size: 120vw;
+        background-size: 130vw;
         max-height: 40vh;
     }
 
     h1 {
+        padding-top: 10px;
         font-size: 2.5em;
     }
 
     h3, #title-sc {
         display: inline;
-        font-size: 1.5vw;
+        font-size: 1.5em;
         width: 400px;
     }
 
     #chamada {
+        padding: 20px;
         font-size: 1.5em;
     }
 
     #chamada>h2 {
         text-align: center;
-        padding: 10px 0;
+        font-size: 1em;
+        padding: 0px;
     }
 
     #o-que-e>p {
@@ -126,7 +129,11 @@
     }
 
     footer {
-        font-size: 0.8em;
+        font-size: 0.5em;
         padding: 20px;
+    }
+
+    .social {
+        width: 16px;
     }
 }
