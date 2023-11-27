@@ -1,6 +1,7 @@
 @media screen and (min-width:1120px){
     header {
-        min-height: 70vh;
+        position: relative;
+        height: 70vh;
     }
 
     header>h1 {
@@ -11,8 +12,14 @@
         line-height: 9vw;
     }
 
-    #chamada {
-        height: 20vw;
+    h3 {
+        font-size: 3.5vw;
+    }
+
+    #chamada>h2 {
+        font-size: 4vw;
+        font-weight: 400;
+        max-width: 600px;
     }
 
     #o-que-e {
@@ -21,7 +28,47 @@
         font-size: 18px;
     }
 
+    #o-que-e>p {
+        text-align: left;
+    }
+
+    #itens {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #itens>h3 {
+        margin-bottom: 30px;
+        font-weight: 400;
+        width: 1800px;
+    }
+
+    #title-sc {
+        font-size: 70px;
+        margin: 30px;
+    }
+
+    #text-sc {
+        font-size: 24px;
+    }
+
     .produtos>img {
-        width: 20vw;
+        width: 24vw;
+    }
+
+    #showcase {
+        height: 400px;
+    }
+
+    #imgs-showcase>img {
+        display: inline-block;
+        width: 30vw;
+        padding: 35px 0;
+    }
+
+    footer {
+        padding: 60px;
     }
 }
