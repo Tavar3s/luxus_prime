@@ -1,0 +1,27 @@
+@media screen and (min-width:1120px){
+    header {
+        min-height: 70vh;
+    }
+
+    header>h1 {
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+        font-size: 8vw;
+        line-height: 9vw;
+    }
+
+    #chamada {
+        height: 20vw;
+    }
+
+    #o-que-e {
+        padding: 50px 40px;
+        columns: 2;
+        font-size: 18px;
+    }
+
+    .produtos>img {
+        width: 20vw;
+    }
+}
